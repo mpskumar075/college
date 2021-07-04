@@ -1,0 +1,180 @@
+
+.card {
+    padding-bottom: 1px;
+  width: 800px;
+  margin: 10px;
+  border-radius: 5px;
+  overflow: display;
+  height: 500px;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+}
+
+.card__info {
+    margin-top: -9px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 20px;
+    border: 1;
+    
+  }
+
+
+.card > img {
+  object-fit: fill;
+  min-width: 200px;
+  min-height: 200px;
+  width: 100%;
+  filter: blur(3px) brightness(30%);
+  -webkit-filter: blur(3px) brightness(30%);
+}
+
+.btn {
+    position: relative;
+    border-radius: 30px;
+    background: white;
+    padding: 10px;
+    font-size: 10px;
+    outline-width: 0;
+    top: 270px;
+    margin-left: 10px;
+}
+
+.position {
+    position: relative;
+    top: -50px;
+    left: 20px
+}
+
+.btns {
+    width: 80px;
+    margin-left: 8px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__list {
+    height: 310px;
+    
+    
+}
+
+.card__item {
+    backdrop-filter: blur(3px) brightness(30%);
+    height: 310px;
+}
+
+
+
+.box {
+    position: relative;
+    border-radius: 5px;
+    background: orange;
+    width: 80px;
+    left: 700px;
+    top: -35px;
+    height: 65px;
+    text-align: center;
+}
+
+.box__list{
+    font-size: 1.2em;
+    color: white;
+
+}
+.box__list__item{
+    position: relative;
+    color: white;
+    top: 15px;
+}
+
+.box__para {
+    color: white;
+}
+
+.para {
+    color: white;
+}
+
+.para {
+    position: relative;
+    left: 570px;
+    top: 134px;
+}
+
+/* .design {
+    
+    width: 80px;
+    height: 0px;
+    border-width: 5px;
+    border-color: blue blue blue transparent;
+} */
+
+.badge {
+    position: relative;
+    color: red;
+    top: 7px;
+    left: 10px;
+}
+
+.offer {
+    position: relative;
+    font-size: 15px;
+    left: 210px;
+    color: red;
+    text-decoration: line-through;
+}
+
+.amount {
+    position: relative;
+    font-size: 29px;
+    color: red;
+    left: 660px;
+    top: -125px;
+}
+
+.sem {
+    position: relative;
+    top: -150px;
+    left: 650px;
+    font-size: 12px;
+    
+}
+
+.fees {
+    position: relative;
+    top: -150px;
+    left: 583px;
+    font-size: 15px;
+    color: #FF647F;
+}
+
+.promo {
+    position: relative;
+    colour: white;
+    top: -500px;
+    width: 20px;
+    height: 0px;
+    border-width: 5px;
+    border-color: blue blue blue transparent;
+}
+
+.off{
+    position: relative;
+    background-color: pink;
+    width: 350px;
+    left: -20px;
+    height: 28px;
+    top: -10px;
+    border-radius: 0 15px 15px 0;
+}
+
+.off__item {
+    position: relative;
+    left: 21px;
+    top: 8px;
+    font-size: 13px;
+}
+

@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  
+}
+
+.section {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
